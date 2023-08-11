@@ -1,4 +1,4 @@
-describe 'FancyDance::InstanceMethods module' do
+describe ':InstanceMethods module' do
   let(:dummy_class) { Class.new { include FancyDance::InstanceMethods }.new }
 
   it 'has a #twirl method' do
